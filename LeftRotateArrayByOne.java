@@ -8,7 +8,10 @@ class Main{
         for(int i=0; i<n; i++){
             arr[i] = sc.nextInt();
         }
-        int temp = arr [0];
+        int temp = arr[0];
+        for(int i =0; i<n-1; i++){
+            
+        }
 
         // Perform left rotation by one position
     }
