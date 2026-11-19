@@ -13,7 +13,9 @@ class Main{
             arr[i] = arr[i+1]; //
         }
         arr[n-1] = temp;
-
-        // Perform left rotation by one position
+        System.out.println("Array after left rotation by one position: ");
+        for(int i=0; i<n; i++){
+            System.out.print(arr[i] + " ");
+        }
     }
 }
