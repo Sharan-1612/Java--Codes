@@ -7,6 +7,8 @@ public class FindMissingNumber {
     for(int i = 0; i < n-1; i++) {
         sum = sum + sc.nextInt();
     }
+    int total = n * (n + 1) / 2;
+    System.out.println(total - sum);
 
     
 }
