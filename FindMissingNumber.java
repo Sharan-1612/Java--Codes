@@ -11,5 +11,6 @@ public class FindMissingNumber {
     }
     int total = n * (n + 1) / 2;
     System.out.println("The missing number is: " + (total - sum));
+    sc.close();
 }
 }
