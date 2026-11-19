@@ -8,7 +8,8 @@ public class RightRotateArrayByOne {
         for(int i =0; i<n; i++){
             arr[i] = sc.nextInt();
         }
-        int temp = 
+        int temp = arr[n-1];
+        gor(int i =0; i<n)
     }
     
 }
