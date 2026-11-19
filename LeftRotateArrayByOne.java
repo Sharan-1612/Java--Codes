@@ -12,7 +12,7 @@ class Main{
         for(int i=0; i<n-1; i++){// enga epo i oda value va 0 va iruka mothu apro nama n value eh minus pandrom like 5 -1 = 4 so epo i oda value 4
             arr[i] = arr[i+1]; //etha pana mothu namaku oru element left la poi store agum 
         }
-        arr[n-1] = temp;// nama already namalodo array la first element save panatha enga call pandrom
+        arr[n-1] = temp;//
         System.out.println("Array after left rotation by one position: ");
         for(int i=0; i<n; i++){
             System.out.print(arr[i] + " ");
