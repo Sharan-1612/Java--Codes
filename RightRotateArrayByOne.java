@@ -9,7 +9,7 @@ public class RightRotateArrayByOne {
             arr[i] = sc.nextInt();
         }
         int temp = arr[n-1];
-        gor(int i =0; i<n)
+        for(int i =0; i<n)
     }
     
 }
