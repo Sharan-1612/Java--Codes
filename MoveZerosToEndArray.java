@@ -16,7 +16,7 @@ public class MoveZerosToEndArray {
             while(j<n){
                 arr[j++] = 0;
             }
-        System.out.println("Array after moving zeros to the end: " + Arrays.toString(arr));
+        System.out.println("Array after moving zeros to the end: " + arr);
         sc.close();
     }
     
