@@ -10,7 +10,7 @@ public class MoveZerosToEndArray {
             arr[i] = sc.nextInt();
         }
         for(int i = 0; i<n; i++)
-            if(arr[i] !- 0){
+            if(arr[i] != 0){
                 arr[j++] = arr[i];
             }
             while(j<n){
