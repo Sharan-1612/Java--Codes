@@ -9,7 +9,7 @@ class Main{
             arr[i] = sc.nextInt(); //array la input vangiachu 
         }
         int temp = arr[0];  //nama temp la array oda first element save panrom athan nama arr[0] oda value
-        for(int i =0; i<n-1; i++){// enga epo i oda value va 0 va iruka mothu apro nama n value eh minus pandrom like 5 -1 = 4 so epo i oda value 4
+        for(int i=0; i<n-1; i++){// enga epo i oda value va 0 va iruka mothu apro nama n value eh minus pandrom like 5 -1 = 4 so epo i oda value 4
             arr[i] = arr[i+1]; //
         }
         arr[n-1] = temp;
