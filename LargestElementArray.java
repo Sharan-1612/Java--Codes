@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class LargestElementArray {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the size of an arrayy: ");
+        int n = sc.nextInt();
+        int max =0;
+        int[] arr =new int[n];
+
+        for(int i=0; i<n; i++)
+            arr[i] = sc.nextInt();
+        max = arr[0];
+        for(int i=0; i<n; i++){
+            if(arr[i]>max)
+                max = arr[i];
+        }
+        System.out.println("The largest element in the array is: " + max);
+        sc.close();
+    }
+    
+}
