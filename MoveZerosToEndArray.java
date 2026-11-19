@@ -2,7 +2,7 @@ import java.util.*;
 public class MoveZerosToEndArray {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the number of elements : ");
+        System.out.print("Enter the size of the array : ");
         int n = sc.nextInt();   
         int j =0; 
         int[] arr = new int[n];
