@@ -9,6 +9,9 @@ public class MoveZerosToEndArray {
         for(int i = 0; i<n; i++){
             arr[i] = sc.nextInt();
         }
+        if(arr[i] !=0)){
+            
+        }
         
         sc.close();
     }
