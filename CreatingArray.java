@@ -8,9 +8,10 @@ public class CreatingArray {
 
         for(int i = 0; i<n; i++)
             arr[i] = sc.nextInt();
-
+//vs code testing.
         for(int i =0; i<n; i++)
             System.out.print(arr[i] + " ");
             sc.close();
+            //testing vs code is pushing code to git or not.
     }   
 }
